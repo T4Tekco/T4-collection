@@ -13,7 +13,6 @@ patch(UserMenu.prototype, "t4tek_theme.UserMenu", {
     user_menuitems.remove("support");
     user_menuitems.remove("shortcuts");
     user_menuitems.remove("separator");
-    user_menuitems.remove("profile");
     user_menuitems.remove("odoo_account");
   },
 });
