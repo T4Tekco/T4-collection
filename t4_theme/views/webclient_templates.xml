@@ -1,0 +1,16 @@
+<odoo>
+    <template id="login_layout" inherit_id="web.login_layout">
+        <xpath
+            expr="//t[@t-call='web.frontend_layout']//div[@class='text-center small mt-4 pt-3 border-top']"
+            position="replace">
+            <div>Powered by <span>T4Tek</span></div>
+        </xpath>
+    </template>
+
+    <template id="brand_promotion_message" inherit_id="web.brand_promotion_message">
+        <xpath expr="." position="replace">
+            <t t-out="'Powered by T4Tek'" />
+        </xpath>
+    </template>
+
+</odoo>
