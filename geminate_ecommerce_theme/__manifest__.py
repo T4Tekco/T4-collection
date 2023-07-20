@@ -19,7 +19,7 @@
 #
 ##############################################################################
 {
-    'name': 'QuangVinh Geminate Ecommerce Theme',
+    'name': 'T4 block snippets',
     'description': 'Theme Gashion Vega is a Modern, Clean & Sectioned Odoo eCommerce Theme.The theme is a very user-friendly and is suitable for your eCommerce website.It is the most powerful, easy to use theme.Many customized snippets allows to feature higher consumer experience.it is suitable for eCommerce sites of all types of industries like Furniture, Fashion, Electronics, Beauty, Health & Fitness, Jewellery, Food, Sports,etc.Being fully Responsive, it looks equally stunning on all kinds of screens and devices.Contains New arrival and Deal of the week,Product Silder,Most Popular,Trending Product. This theme is fully customized the eCommerce website, shop view, product view, contact us page, about us page, magnify product photos,cart, Compress, Whishlist...etc.',
     'summary': 'Theme Gashion Vega is a Modern, Clean & Sectioned Odoo eCommerce Theme.The theme is a very user-friendly and is suitable for your eCommerce website.It is the most powerful, easy to use theme.Many customized snippets allows to feature higher consumer experience.it is suitable for eCommerce sites of all types of industries like Furniture, Fashion, Electronics, Beauty, Health & Fitness, Jewellery, Food, Sports,etc.',
     'category': 'Theme/eCommerce',
