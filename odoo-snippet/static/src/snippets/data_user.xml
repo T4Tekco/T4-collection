@@ -1,0 +1,14 @@
+
+    <template xml:space="preserve">
+            <div t-name="odoo_snippet.data_user" class="s_website_form pt16 pb16 o_colored_level">
+                <div>
+                    <t t-out="data.name"/>
+                </div>
+                <div>
+                    <t t-out="data.phone"/>
+                </div>
+                <div>
+                    <t t-out="data.email"/>
+                </div>
+            </div>
+    </template>

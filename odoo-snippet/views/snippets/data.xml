@@ -1,0 +1,29 @@
+<odoo>
+    <template id="d_block" name="Data Contact">
+    <!-- <t t-call-assets="odoo_snippet.awesome"/>
+    <t t-call-assets="odoo_snippet.boơotstrap"/> -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="text-center mt-3">
+                        <h3 class="border rounded"><i class="bi bi-house-door-fill"></i>Dinh Đầu Moi</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="contact">
+                        <div class="contact_data"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <record id="odoo-snippet.contact_js" model="ir.asset">
+        <field name="name">Data Contact</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">odoo-snippet/static/src/snippets/contact.js</field>
+    </record>
+    <record id="odoo-snippet.contact_xml" model="ir.asset">
+        <field name="name">Data Contact</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">odoo-snippet/static/src/snippets/contact.xml</field>
+    </record>
+</odoo>

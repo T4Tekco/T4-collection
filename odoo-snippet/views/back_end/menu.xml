@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <menuitem id="base_menu" name="Carousel"/>
+
+    <record id="carousel_slide_action" model="ir.actions.act_window">
+        <field name="name">Carousel</field>
+        <field name="res_model">carousel.slide</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="carousel_slide_menu" name="Carousel" parent="base_menu" action="carousel_slide_action" />
+
+</odoo>

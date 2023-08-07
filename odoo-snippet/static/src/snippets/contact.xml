@@ -1,0 +1,9 @@
+<template xml:space="preserve">
+    <div t-name="odoo_snippet.data_contact">
+    <!-- <t out="r.phone"/> -->
+        <t t-foreach="results" t-as="r">
+            <t t-out="r.phone"/>
+        </t>
+    </div>
+
+</template>

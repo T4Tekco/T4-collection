@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <template id="carousel_snippet" name="Carosel Snippet">
+        <section>
+            <t t-call-assets="odoo_snippet.boơotstrap"/>
+            <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000" id="myCarousel1685952895173" style="background-image: none;">
+                <div class="carousel-inner">
+                    <div id="carouselExampleIndicators" class="carousel carousel_slide_data slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner slide_carousel">
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                                    <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                                </svg>
+                            </span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left" viewBox="0 0 16 16">
+                                    <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+                                </svg>
+                            </span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <record id="odoo-snippet.data_image_js" model="ir.asset">
+        <field name="name">Data Slide</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">odoo-snippet/static/src/snippets/carousel.js</field>
+    </record>
+    <record id="odoo-snippet.data_image_xml" model="ir.asset">
+        <field name="name">Data Slide</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">odoo-snippet/static/src/snippets/carousel.xml</field>
+    </record>
+</odoo>

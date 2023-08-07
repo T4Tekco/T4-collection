@@ -1,0 +1,13 @@
+<template xml:space="preserve">
+    <t t-name="odoo_snippet.carousel_slide">
+        <!-- <t out="r.phone"/> -->
+        <div class="carousel-item active">
+            <img t-att-src="first.image" class="d-block w-100" alt="..."/>
+        </div>
+        <t t-foreach="results" t-as="r">
+            <div class="carousel-item">
+                <img t-att-src="r.image" class="d-block w-100" alt="..."/>
+            </div>
+        </t>
+    </t>
+</template>

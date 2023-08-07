@@ -1,0 +1,19 @@
+<odoo>
+    <template id="data_user" name="Data User">
+        <section class="s_website_form pt16 pb16">
+            <div class="border rounded user">
+                <div class="data_user"></div>
+            </div>
+        </section>
+    </template>
+    <record id="odoo-snippet.data_user_js" model="ir.asset">
+        <field name="name">Data Company</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">odoo-snippet/static/src/snippets/data_user.js</field>
+    </record>
+    <record id="odoo-snippet.data_user_xml" model="ir.asset">
+        <field name="name">Data Company</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">odoo-snippet/static/src/snippets/data_user.xml</field>
+    </record>
+</odoo>

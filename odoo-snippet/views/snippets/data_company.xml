@@ -1,0 +1,23 @@
+<odoo>
+    <template id="data_company" name="Data Company">
+        <section class="s_website_form pt16 pb16">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center mt-3 com">
+                        <div class="data_company"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <record id="odoo-snippet.data_com_js" model="ir.asset">
+        <field name="name">Data Company</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">odoo-snippet/static/src/snippets/data_com.js</field>
+    </record>
+    <record id="odoo-snippet.data_com_xml" model="ir.asset">
+        <field name="name">Data Company</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">odoo-snippet/static/src/snippets/data_com.xml</field>
+    </record>
+</odoo>
